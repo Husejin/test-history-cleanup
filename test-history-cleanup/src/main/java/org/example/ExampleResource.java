@@ -13,4 +13,11 @@ public class ExampleResource {
     public String hello() {
         return "Hello from RESTEasy Reactive";
     }
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    @Path("secret")
+    public String secret() {
+        return "***REMOVED***";
+    }
 }
