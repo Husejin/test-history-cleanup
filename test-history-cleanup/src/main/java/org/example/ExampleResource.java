@@ -20,4 +20,11 @@ public class ExampleResource {
     public String secret() {
         return "***REMOVED***";
     }
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    @Path("feature")
+    public String feature() {
+        return "JUST A FEATURE ENDPOINT";
+    }
 }
