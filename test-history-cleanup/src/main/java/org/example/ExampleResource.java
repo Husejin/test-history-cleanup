@@ -25,6 +25,6 @@ public class ExampleResource {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("feature")
     public String feature() {
-        return "JUST A FEATURE ENDPOINT";
+        return "JUST A FEATURE ENDPOINT WITH SOME ADDITIon";
     }
 }
