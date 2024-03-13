@@ -18,6 +18,6 @@ public class ExampleResource {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("secret")
     public String secret() {
-        return "***REMOVED***";
+        return "CLEANED UP";
     }
 }
